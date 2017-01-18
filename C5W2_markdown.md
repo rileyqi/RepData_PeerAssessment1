@@ -39,7 +39,7 @@ colnames(aggbydate)<-c('date','totalsteps')
 hist(aggbydate$totalsteps, main = 'the total number of steps taken each day', xlab = 'step')
 ```
 
-![](C5W2_markdown_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![](figure-html/unnamed-chunk-2-1.png)<!-- -->
 
 ```r
 #calculate mean
