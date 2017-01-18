@@ -75,7 +75,7 @@ plot(avg_by_interval$interval,avg_by_interval$step, type = 'l',col=1, main = 'av
      xlab = 'intervals',ylab = 'average number of steps')
 ```
 
-![](C5W2_markdown_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](figure-html/unnamed-chunk-3-1.png)<!-- -->
 
 ```r
 #identify the interval which has the highest average steps
@@ -126,7 +126,7 @@ colnames(newaggregate)<-c('date','step')
 hist(newaggregate$step, main = 'the total number of steps taken each day',xlab = 'step')
 ```
 
-![](C5W2_markdown_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 ```r
 #calculate the mean
@@ -191,7 +191,7 @@ plot <- ggplot(steps_per_day_weekday, aes(interval, steps)) +
 plot
 ```
 
-![](C5W2_markdown_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 ```r
 ### We could see some differences between these two plots. Poeple usually
